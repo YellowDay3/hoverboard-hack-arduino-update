@@ -106,10 +106,10 @@
   //#define SERIAL_USART2_IT                        // Interface for CONTROL_SERIAL_PROTOCOL
   //#define SERIAL_USART3_IT                          // Interface for CONTROL_SERIAL_PROTOCOL
 
-  #define USART2_BAUD       9600                   // UART baud rate
+  #define USART2_BAUD       19200                   // UART baud rate
   #define USART2_WORDLENGTH UART_WORDLENGTH_8B      // UART_WORDLENGTH_8B or UART_WORDLENGTH_9B
 
-  #define USART3_BAUD       9600                  // UART baud rate
+  #define USART3_BAUD       19200                  // UART baud rate
   #define USART3_WORDLENGTH UART_WORDLENGTH_8B      // UART_WORDLENGTH_8B or UART_WORDLENGTH_9B
 
   #define SERIAL_USART_IT_BUFFERTYPE  unsigned char // char or short
